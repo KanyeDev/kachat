@@ -50,19 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'key',
+   apiKey: 'key',
     appId: 'key',
-    messagingSenderId: '730186817421',
-    projectId: 'kachat-fd61f',
-    storageBucket: 'kachat-fd61f.appspot.com',
+    messagingSenderId: 'ID',
+    projectId: 'project ID',
+    storageBucket: 'storage.com',
+    iosBundleId: 'ID',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'key',
     appId: 'key',
-    messagingSenderId: '730186817421',
-    projectId: 'kachat-fd61f',
-    storageBucket: 'kachat-fd61f.appspot.com',
-    iosBundleId: 'com.example.kachat',
+    messagingSenderId: 'ID',
+    projectId: 'project ID',
+    storageBucket: 'storage.com',
+    iosBundleId: 'ID',
   );
 }
